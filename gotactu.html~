@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>GOTActu.html</title>
+		<meta charset="UTF-8"/>
+		<link type="text/css" href="style.css" rel="stylesheet" media="all" />
+	</head>
+	<body>
+		<header>
+				<h1>GOT ACTU</h1>	
+				<br/>
+				<br/>
+				<br/>
+		</header>
+		<div>
+			<aside id="liste_episodes">
+				<ul>
+					<h4>Liste des saisons</h4>
+					<li>
+						<a href="Saison1">Saison 1</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison2">Saison 2</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison3">Saison 3</a>
+					</li>
+					<li>
+						<a href="Saison4">Saison 4</a>
+					</li>
+					<li>
+						<a href="Saison5">Saison 5</a>
+					</li>
+					<li>
+						<a href="Saison6">Saison 6</a>
+					</li>
+					<li>
+						<a href="Saison7">Saison 7</a>
+					</li>
+				</ul>
+			</aside>
+			<section id="section_actu_serie"> <!-- Section actualité série -->
+				<h2>Actus série</h2>
+				<section class="categorie_actu_serie">
+					<h3>▶ Dates de la saison 8</h3>
+					<p>La nuit dernière, on a pu découvrir le tout dernier épisode de la saison 7 de Game of Thrones, qui a posé les bases pour la saison 8, qui sera malheureusement la dernière. En effet, il a été annoncé il y a déjà plusieurs mois que Game of Thrones se terminerait à l'issu de la saison 8, nous allons donc entrer dans la dernière ligne droite pour les personnages. Pour le moment, nous n'avons pas encore de date officielle pour la diffusion de cette huitième et dernière saison, mais on sait que le tournage commencera en octobre. Tout comme pour la saison 7, il va très certainement falloir patienter un long moment avant de pouvoir retrouver la série.</p>
+					<aside>
+						<a href="article1.html">Lien vers cet incroyable article →</a>
+					</aside>				
+				</section>
+				<section class="categorie_actu_serie">
+					<h3>▶ INCROYABLE CET ARTICLE VA VOUS ETONNER</h3>
+					<p>20 images incroyables, la septième vous laissera sans voix!!</p>
+					<aside>
+						<a href="article2.html">Lien vers cet incroyable article →</a>
+					</aside>
+				</section>
+			</section>
+			<section id="section_actu_site"> <!-- Section actualité site -->
+				<h2>Actus site</h2>
+					<section class="categorie_actu_site">
+						<h3>▶ Actu site1</h3>
+						<p>incroyables ajouts très très beaux</p>
+					</section>	
+			</section>		
+		</div>	
+		<footer>
+			<p>Copyright BELLEC Louison et AUBOUEIX Dorian - Groupe 6 ----- Tous droits réservés. </p>
+		</footer>
+	</body>
+	
+</html>	
