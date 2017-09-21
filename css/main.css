@@ -1,0 +1,61 @@
+html{
+	font-family: "Verdana";
+	background-image: url("../addon/got fond.jpg");
+	min-height: 100%;
+	background-attachment: fixed;
+}
+body{
+	background-color: rgba(0,0,0,0.40);
+	color: white;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding-bottom: 55px;
+}
+h1{
+	text-align: center;
+	margin: 0;
+	padding-top: 80px;
+	font-size: 120px;
+	font-family: "Verdana";
+	background-color: black;
+}
+nav{
+	background-color: rgba(255,255,255,0.2);
+	display: block;
+	height: 50px;
+	margin:0;
+}
+#nav_menu{
+	margin:0;
+	height: 100%;
+}
+.menu_categorie{
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+	border: 2px solid black;
+	height: 46px;
+}
+.menu_lien{
+	line-height: 46px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-style: italic;
+}
+a:hover{
+	color: lightblue;
+	text-decoration: underline;
+}
+footer{
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	font-size: 75%;
+	background-color: rgba(255,255,255,0.2);
+}
