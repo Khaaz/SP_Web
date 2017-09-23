@@ -10,14 +10,17 @@ h2{
 }
 table{
   border:2px solid white;
+  
 }
 thead{
 	font-size:35px;
 }
+
 td{
 	font-size:30px;
   border:2px solid white;
 }
+
 #colonne1{
 	width:25%;
 	height:60%;
@@ -28,7 +31,7 @@ td{
 }
 #colonne3{
   border:2px solid white;
-	width:30%;
+	width:25%;
 }
 .colonne1{
   text-align: center;
@@ -43,7 +46,7 @@ td{
 }
 .img{
 	margin: 0;
-	width:250px;
-	height:300px;
+	width:350px;
+	height:250px;
   background-color: rgba(0,0,0,0.40);
 }
