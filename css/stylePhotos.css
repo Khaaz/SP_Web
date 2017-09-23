@@ -1,7 +1,65 @@
 @import url("main.css");
 
-.photos{
-margin:0;
-width: 10px;
-display:block;
+.main{
+	text-align: center;
 }
+
+.photos1{
+	width: 400px;
+	margin-right: 110px;
+	margin-bottom: 150px;
+	float: left;
+}
+
+.taille1{
+	width: 400px;
+	height: 300px;
+}
+
+.photos2{
+	margin:0;
+	margin-right: 70px;
+	float: left;
+}
+
+.taille2{
+	width:200px;
+	height: 300px;
+}
+
+.photos3{
+	margin:0;
+	float: left;
+}
+
+.taille3{
+	width:400px;
+	height: 300px;
+}
+
+
+.photos4{
+	margin:0;
+	width: 400px;
+}
+
+.taille4{
+width: 400px;
+}
+
+.photos5{
+	margin:0;
+	width: 400px;
+}
+
+.taille5{}
+
+.photos6{
+	margin:0;
+	width: 400px;
+}
+
+.taille6{
+width:400px;
+}
+

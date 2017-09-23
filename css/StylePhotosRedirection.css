@@ -1,0 +1,30 @@
+@import url("main.css");
+
+#main{
+	text-align: center;
+}
+
+#photos1{
+	width: 1000px;
+	height: 800px;
+}
+
+#photos2{
+	width: 500px;
+}
+
+#photos3{
+	width:1000px;
+}
+
+#photos4{ 
+	width: 1000px;
+}
+
+#photos5{
+	width: 1000px;
+}
+
+#photos6{
+	width: 1000px;
+}
