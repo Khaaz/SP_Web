@@ -1,14 +1,20 @@
 @import url("main.css");
 
+h2{
+  padding-left: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 #video{
+  width:550px;
 	text-align: right;
-	margin-top: -120px;
-	margin-right: 70px;
-	margin-bottom: 150px;
+  padding-left: 20px
+}
+article{
+    text-align: justify;
 }
 
 #description{
-	position: relative;
-	top: 150px;
-	left: 20px;
+  padding-left: 20px;
 }
