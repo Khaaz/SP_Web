@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>GOTActu.html</title>
+		<meta charset="UTF-8"/>
+		<link type="text/css" href="../css/style.css" rel="stylesheet" media="all" />
+	</head>
+	<body>
+		<header>
+				<h1>GOT ACTU</h1>	
+				<br/>
+				<br/>
+				<br/>
+		</header>
+		<div id="main">
+			<nav>
+				<ul>
+					<li class="menue">
+						<div>
+							<a href="actus.html">Actus</a>
+						</div>
+					</li>
+					<li class="menue">
+						<div>
+							<a href="biographie.html">Biographie</a>
+						</div>
+					</li>
+					<li class="menue">
+						<div>
+							<a href="saisons.html">Saisons</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<aside id="liste_episodes">
+				<ul>
+					<h4>Liste des saisons:</h4>
+					<li>
+						<a href="Saison1">Saison 1</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison2">Saison 2</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison3">Saison 3</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison4">Saison 4</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison5">Saison 5</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison6">Saison 6</a>
+						<ul>
+							<li>
+								<a href="Episode1">Episode 1</a>
+							</li>
+							<li>
+								<a href="Episode2">Episode 2</a>
+							</li>
+							<li>
+								<a href="Episode3">Episode 3</a>
+							</li>
+							<li>
+								<a href="Episode4">Episode 4</a>
+							</li>
+							<li>
+								<a href="Episode5">Episode 5</a>
+							</li>
+							<li>
+								<a href="Episode6">Episode 6</a>
+							</li>
+							<li>
+								<a href="Episode7">Episode 7</a>
+							</li>
+							<li>
+								<a href="Episode8">Episode 8</a>
+							</li>
+							<li>
+								<a href="Episode9">Episode 9</a>
+							</li>
+							<li>
+								<a href="Episode10">Episode 10</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="Saison7">Saison 7</a>
+					</li>
+				</ul>
+			</aside>
+			<section id="section_actu_serie"> <!-- Section actualité série -->
+				<h2>Actus série</h2>
+				<article class="categorie_actu_serie">
+					<h3>▶ Dates de la saison 8</h3>
+					<p>At nunc si ad aliquem bene nummatum tumentemque ideo honestus advena salutatum introieris, primitus tamquam exoptatus suscipieris et interrogatus multa coactusque mentiri, miraberis numquam antea visus summatem virum tenuem te sic enixius observantem, ut paeniteat ob haec bona tamquam praecipua non vidisse ante decennium Romam.</p>
+					<aside>
+						<a href="article1.html">Voir l'article →</a>
+					</aside>				
+				</article>
+				<article class="categorie_actu_serie">
+					<h3>▶ Saison 7, secrets de tournages</h3>
+					<p>At nunc si ad aliquem bene nummatum tumentemque ideo honestus advena salutatum introieris, primitus tamquam exoptatus suscipieris et interrogatus multa coactusque mentiri, miraberis numquam antea visus summatem virum tenuem te sic enixius observantem, ut paeniteat ob haec bona tamquam praecipua non vidisse ante decennium Romam.</p>
+					<aside>
+						<a href="article2.html">Voir l'article→</a>
+					</aside>
+				</article>
+			</section>
+			<section id="section_actu_site"> <!-- Section actualité site -->
+				<h2>Actus site</h2>
+					<article class="categorie_actu_site">
+						<h3>▶ Actu site1</h3>
+						<p>At nunc si ad aliquem bene nummatum tumentemque ideo honestus advena salutatum introieris, primitus tamquam exoptatus suscipieris et interrogatus multa coactusque mentiri, miraberis numquam antea visus summatem virum tenuem te sic enixius observantem, ut paeniteat ob haec bona tamquam praecipua non vidisse ante decennium Romam.</p>
+					</article>	
+			</section>		
+		</div>	
+		<footer>
+			<p>Copyright BELLEC Louison et AUBOUEIX Dorian - Groupe 6 ----- Tous droits réservés. </p>
+		</footer>
+	</body>
+	
+</html>	

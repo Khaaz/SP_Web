@@ -1,0 +1,42 @@
+@import url("main.css");
+
+
+.main{
+	text-align: center;
+}
+
+.display{
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+
+.photos1{
+	width: 360px;
+	height: 300px;
+}
+
+.photos2{
+	width: 360px;
+	height:300px;
+}
+
+.photos3{
+	width: 360px;
+	height: 300px;
+}
+
+.photos4{
+	width: 360px;
+	height: 300px;
+}
+
+.photos5{
+	width: 360px;
+	height: 300px;
+}
+
+.photos6{
+	width: 360px;
+	height: 300px;
+}

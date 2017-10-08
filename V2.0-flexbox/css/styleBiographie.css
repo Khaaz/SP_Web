@@ -1,0 +1,52 @@
+@import url("main.css");
+
+section{
+	max-width: 1100px;
+	text-align: justify;
+}
+h2{
+	font-size: 40px;
+	font-weight: bolder;
+}
+table{
+  border:2px solid white;
+}
+thead{
+	font-size:35px;
+}
+
+td{
+	font-size:30px;
+  border:2px solid white;
+}
+
+#colonne1{
+	width:25%;
+	height:60%;
+  border:2px solid white;
+}
+#colonne2{
+  border:2px solid white;
+}
+#colonne3{
+  border:2px solid white;
+	width:25%;
+}
+.colonne1{
+  text-align: center;
+  background-color: rgba(0,0,0,0.40);
+}
+.text{
+	padding-left: 10px;
+  padding-right:10px;
+  font-size: 100%;
+	text-align:justify;
+  background-color: rgba(0,0,0,0.40);
+}
+.img{
+	margin: 0;
+	width:350px;
+	height:250px;
+  background-color: rgba(0,0,0,0.40);
+	vertical-align: middle;
+}

@@ -1,0 +1,11 @@
+@import url("main.css");
+
+section{
+  max-width: 1100px;
+  text-align: justify;
+  padding-left: 20px;
+}
+h3{
+  margin-left: 30px;
+  text-decoration: underline;
+}

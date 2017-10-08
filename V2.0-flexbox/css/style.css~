@@ -1,0 +1,73 @@
+html{
+font-family: "Verdana";
+}
+h1{
+text-align: center;
+margin: 0;
+padding-top: 80px;
+font-size: 120px;
+font-family: "Verdana";
+}
+#main{
+background-image: url("../addon/got fond.jpg");
+height: 100%;
+}
+body{
+background-color: rgba(0,0,0,0.40);
+color: white;
+}
+nav{
+background-color: grey;
+display: block;
+height: 50px;
+}
+.menu.onglet{
+border-style: 1;
+border-color: black;
+}
+.menue{
+display: inline-block;
+}
+section{
+max-width: 1100px;
+text-align: justify;
+}
+h2{
+font-size: 40px;
+font-weight: bolder;
+}
+h3{
+margin-left: 30px;
+text-decoration: underline;
+}
+h4{
+text-decoration: underline;
+}
+#section_actu_serie{
+}
+
+#liste_episodes{
+float:right;
+background-color: rgba(255,255,255,0.2);
+border: double;
+height: 500px;
+width: 15%;
+overflow-y: scroll;
+}
+a{
+color: white;
+text-decoration: none;
+font-style: italic;
+}
+a:hover{
+color: lightblue;
+text-decoration: underline;
+}
+footer{
+position: absolute;
+bottom: 0;
+background-color: grey;
+border: double;
+border-color: black;
+font-size: 75%;
+}
