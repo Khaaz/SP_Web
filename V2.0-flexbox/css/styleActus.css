@@ -3,6 +3,7 @@
 h2{
 	font-size: 40px;
 	font-weight: bolder;
+	text-shadow: 3px 3px 0px grey;
 }
 h3{
 	margin-left: 30px;

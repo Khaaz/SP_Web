@@ -15,14 +15,10 @@ body{
 	padding: 0;
 }
 
-h1{
-	text-align: center;
-	font-size: 120px;
-	font-family: "Verdana";
-	background-color: black;
-	margin: 0;
-	padding-top: 90px;
-	padding-bottom: 40px;
+
+header{
+	background-image: url("../addon/banniereGOT.jpg");
+	height: 431px;
 }
 
 nav{
@@ -49,6 +45,8 @@ nav{
 	border-left: 2px solid #ffffff;
 	border-top: 4px solid #ffffff;
 	border-bottom: 4px solid #ffffff;
+	border-radius: 10px;
+	box-shadow: 10px 10px 50px grey;
 }
 
 .parent{
@@ -60,6 +58,8 @@ nav{
 	border-left: 2px solid #ffffff;
 	border-top: 4px solid #ffffff;
 	border-bottom: 4px solid #ffffff;
+	border-radius: 10px;	 
+	box-shadow: 6px 6px 50px grey;
 }
 
 .sous-menu{
@@ -79,7 +79,8 @@ nav{
 }
  
 .categorie:hover{
-	background-color: #888;
+	background-color: #A0522D;
+	transition: background-color 2s;
 }
 
 a{
@@ -90,7 +91,7 @@ a{
 }	
 
 a:hover{
-	color: lightblue;
+	color: #D2B48C;
 }
 
 
@@ -99,4 +100,5 @@ footer{
 	border-top: 2px solid grey;
 	border-bottom: 2px solid grey;
 	background-color: rgba(255,255,255,0.2);
+	box-shadow: 6px 6px 50px grey;
 }
