@@ -1,35 +1,21 @@
 @import url("main.css");
 
+#main{
+	margin-top: 120px;
+	margin-bottom: 100px;
+}
+
 section{
 	max-width: 1100px;
 	text-align: justify;
 	padding-left: 5px;
 }
 h3{
+	font-size: 30px;
 	padding-left: 60px;
 	text-decoration: underline;
 }
 h4{
 	padding-left: 40px;
 	text-decoration: overline underline;
-}
-#main{
-
-}
-#liste_episodes{
-	float:right;
-	background-color: rgba(255,255,255,0.2);
-	border: double;
-	height: 500px;
-	width: 15%;
-	overflow-y: scroll;
-}
-#section_actu_serie{
-
-}
-.categorie_actu_serie{
-
-}
-.categorie_actu_site{
-
 }
