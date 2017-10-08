@@ -1,10 +1,5 @@
 @import url("main.css");
 
-section{
-	max-width: 1100px;
-	text-align: justify;
-	padding-left: 10px;
-}
 h2{
 	font-size: 40px;
 	font-weight: bolder;
@@ -16,23 +11,33 @@ h3{
 h4{
 	text-decoration: underline;
 }
-#main{
 
+.main{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	height: 750px;
+	margin-top: 100px;
 }
-#liste_episodes{
-	float:right;
+
+.section{
+	display: flex;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	max-width: 1100px;
+	text-align: justify;
+	padding-left: 10px;
+	
+}
+
+.liste_episodes{
 	background-color: rgba(255,255,255,0.2);
 	border: double;
 	height: 500px;
 	width: 15%;
 	overflow-y: scroll;
+	margin-top: 150px;
 }
-#section_actu_serie{
 
-}
-.categorie_actu_serie{
 
-}
-.categorie_actu_site{
-
-}

@@ -1,62 +1,102 @@
 html{
-	font-family: "Verdana";
-	background-image: url("../addon/got fond.jpg");
-	min-height: 100%;
-	background-attachment: fixed;
-	background-position: center;
+font-family: "Verdana";
+background-image: url("../addon/got fond.jpg");
+min-height: 100%;
+background-attachment: fixed;
 }
+
 body{
+	display: flex;
+	flex-direction: column;
 	background-color: rgba(0,0,0,0.40);
 	color: white;
-	height: 100%;
-	position: relative;
+	min-height: 100%;
 	margin: 0;
-	padding-bottom: 55px;
+	padding: 0;
 }
+
 h1{
 	text-align: center;
-	margin: 0;
-	padding-top: 80px;
 	font-size: 120px;
 	font-family: "Verdana";
 	background-color: black;
+	margin: 0;
+	padding-top: 90px;
+	padding-bottom: 40px;
 }
+
 nav{
-	background-color: rgba(255,255,255,0.2);
-	display: block;
-	height: 50px;
-	margin:0;
+	width: 100%;
 }
-#nav_menu{
-	margin:0;
-	height: 100%;
-}
-.menu_categorie{
-	display: inline-block;
-	width: 16%;
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	min-height: 40px;
 	text-align: center;
-	border: 2px solid black;
-	height: 46px;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(255,255,255,0.2);
+	font-size: 30px;
 }
-.menu_lien{
-	line-height: 46px;
+
+.categorie{
+	position: relative;
+	width: 100%;
+	list-style: none;
+	padding: 30px;
+	border-right: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
 }
+
+.parent{
+	width: 100%;
+	list-style: none;
+	position: relative;
+	padding: 30px;
+	border-right: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+}
+
+.sous-menu{
+	display: none;
+ 	position:relative;
+ 	height: auto;
+ 	list-style: none;
+}
+
+.parent:hover .sous-menu{
+	display: flex;
+	flex-direction: column;
+   position: absolute;
+    top: 100%;
+    right: 70px;
+    width: 80%;
+}
+ 
+.categorie:hover{
+	background-color: #888;
+}
+
 a{
 	color: white;
 	text-decoration: none;
 	font-style: italic;
-}
+	
+}	
+
 a:hover{
 	color: lightblue;
-	text-decoration: underline;
 }
+
+
 footer{
-	display: block;
-	position: absolute;
-	width: 100%;
 	bottom: 0;
 	border-top: 2px solid grey;
 	border-bottom: 2px solid grey;
-	font-size: 75%;
 	background-color: rgba(255,255,255,0.2);
 }
