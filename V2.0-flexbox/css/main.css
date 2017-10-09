@@ -8,7 +8,7 @@ background-attachment: fixed;
 body{
 	display: flex;
 	flex-direction: column;
-	background-color: rgba(0,0,0,0.40);
+	background-color: rgba(0,0,0,0.60);
 	color: white;
 	min-height: 100%;
 	margin: 0;
@@ -17,8 +17,11 @@ body{
 
 
 header{
+	background: no-repeat;
 	background-image: url("../addon/banniereGOT.jpg");
-	height: 431px;
+	background-position: center;
+	background-size: 100% 130%;
+	height: 250px;
 }
 
 nav{
@@ -28,11 +31,12 @@ nav{
 .menu{
 	display: flex;
 	flex-direction: row;
-	min-height: 40px;
+	min-height: 100%;
 	text-align: center;
 	margin: 0;
-	padding: 0;
-	background-color: rgba(255,255,255,0.2);
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	background-color: rgba(255,255,255,0.25);
 	font-size: 30px;
 }
 
@@ -41,12 +45,12 @@ nav{
 	width: 100%;
 	list-style: none;
 	padding: 30px;
-	border-right: 2px solid #ffffff;
-	border-left: 2px solid #ffffff;
-	border-top: 4px solid #ffffff;
-	border-bottom: 4px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-top: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;
 	border-radius: 10px;
-	box-shadow: 10px 10px 50px grey;
+	box-shadow: 10px 10px 30px grey;
 }
 
 .parent{
@@ -58,37 +62,48 @@ nav{
 	border-left: 2px solid #ffffff;
 	border-top: 4px solid #ffffff;
 	border-bottom: 4px solid #ffffff;
-	border-radius: 10px;	 
+	border-radius: 10px;
 	box-shadow: 6px 6px 50px grey;
 }
 
 .sous-menu{
 	display: none;
  	position:relative;
- 	height: auto;
+ 	height: inherit;
  	list-style: none;
 }
 
+.parent:hover{
+	background-color: #A0522D;
+	transition: background-color 2s;
+}
 .parent:hover .sous-menu{
 	display: flex;
+	background-color: rgba(255,255,255,0.2);
+	background-position: center;
 	flex-direction: column;
    position: absolute;
     top: 100%;
-    right: 70px;
-    width: 80%;
+    width: 78%;
+    right: 23%;
 }
- 
+
 .categorie:hover{
 	background-color: #A0522D;
 	transition: background-color 2s;
 }
 
+.active{
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: red;
+}
 a{
 	color: white;
 	text-decoration: none;
 	font-style: italic;
-	
-}	
+
+}
 
 a:hover{
 	color: #D2B48C;
@@ -96,9 +111,38 @@ a:hover{
 
 
 footer{
+	display:flex;
+	text-align: center;
+	text-align: justify;
 	bottom: 0;
 	border-top: 2px solid grey;
 	border-bottom: 2px solid grey;
 	background-color: rgba(255,255,255,0.2);
-	box-shadow: 6px 6px 50px grey;
+	box-shadow: 6px 6px 30px grey;
+}
+
+#facebook{
+	position: absolute;
+		bottom: :50px;
+	margin: 0;
+	padding: 0;
+	width: 65px;
+	height: 50px;
+}
+
+#twitter{
+	position: absolute;
+		bottom: :100px;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+}
+
+#rss{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 50px;
 }

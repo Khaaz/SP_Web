@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>GOTActu.html</title>
+		<meta charset="UTF-8"/>
+		<link type="text/css" href="../css/styleContact.css" rel="stylesheet" media="all" />
+	</head>
+	<body>
+		<header>
+		</header>
+			<nav>
+				<ul class="menu">
+					<a class="categorie" href="gotactu.html">
+						<li>Accueil</li>
+					</a>
+					<a class="categorie" href="actus.html">
+						<li>Actus</li>
+					</a>
+					<a class="categorie" href="biographie.html">
+						<li>Biographie</li>
+					</a>
+					<a class="categorie" href="saisons.html">
+						<li>Saisons</li>
+					</a>
+					<li class="parent">Médias
+						<ul class="sous-menu">
+							<a class="categorie" href="photos.html">
+								<li>Photos</li>
+							</a>
+							<a class="categorie" href="videos.html">
+								<li>Videos</li>
+							</a>
+						</ul>
+					</li>
+					</a>
+					<a class="categorie active" href="contact.html">
+						<li>Contacts</li>
+					</a>
+				</ul>
+			</nav>
+		<div id="main">
+			<section id="formulaire"> <!-- Section formulaire -->
+				<h2>Contact</h2>
+				<form method="post" action="formulaire.php">
+					<p>
+						<label for="nom">Nom</label>
+						<input type="text" name="nom" placeholder="Nom*" required />
+					</p>
+					<p>
+						<label for="prenom">Prenom</label>
+						<input type="text" name="prenom" placeholder="Prénom*" required />
+					</p>
+					<p>
+						<label for="email">Email</label>
+						<input type="email" name="email" placeholder="Email*" required />
+					</p>
+					<p>
+						<label for="telephone">Téléphone</label>
+						<input type="tel" name="telephone" placeholder="Telepĥone" />
+					</p>
+					<p>
+						Est ce votre première visite?
+						<br />
+						<br />
+						<label for="visite">Oui</label>
+						<input type="radio" name="visite" value="visite1" />
+						<label for="visite">Non</label>
+						<input type="radio" name="visite" value="visite!1" />
+					</p>
+					<p>
+						<select>
+						<option value="Bugs">Bug/amélioration</option>
+						<option value="Autres">Autres</option>
+						</select>
+					</p>
+					<p>
+						<label for="text">Description</label>
+						<br />
+						<textarea name="text" rows="10" cols="30" placeholder="Votre texte ici.*" required></textarea>
+					</p>
+					<p>
+						<input type="submit" value="Envoyer" />
+					</p>
+				</form>
+			</section>
+		</div>
+		<footer>
+			<p>Copyright BELLEC Louison et AUBOUEIX Dorian - Groupe 6 ----- Tous droits réservés. </p>
+		</footer>
+	</body>
+
+</html>

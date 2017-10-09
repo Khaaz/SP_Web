@@ -15,9 +15,17 @@ h4{
 .section{
 	max-width: 1100px;
 	text-align: justify;
-	padding-left: 10px;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	padding-left: 15px;
+	padding-right: 1%;
+	padding-bottom: 2%;
+  padding-top: 1%;
+	margin-top: 80px;
+  background-color: rgba(255,255,255,0.15);
+  background-position: center;
+  margin-right: 10%;
+  margin-left:5%;
+  margin-bottom: 5%;
+  box-shadow: 10px 10px 30px grey;
 }
 
 

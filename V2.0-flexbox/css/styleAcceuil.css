@@ -23,20 +23,23 @@ h4{
 
 .section{
 	display: flex;
-	flex-wrap: wrap;
-	display: flex;
 	flex-direction: column;
 	max-width: 1100px;
 	text-align: justify;
 	padding-left: 10px;
-	
+	background-color: rgba(255,255,255,0.15);
+	background-position: center;
+	margin-right: 10%;
+	margin-left:5%;
+	margin-bottom: 10%;
+	box-shadow: 10px 10px 30px grey;
 }
 
 .liste_episodes{
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.15);
 	border: double;
 	height: 500px;
-	width: 15%;
+	width: 20%;
 	overflow-y: scroll;
 	margin-top: 150px;
 	box-shadow: 6px 6px 50px white;
