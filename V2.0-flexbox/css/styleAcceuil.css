@@ -1,5 +1,30 @@
 @import url("main.css");
 
+
+@media (max-width: 800px){
+	
+	#main{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section{
+		margin-bottom: 2%;
+	}
+
+	.liste_episodes{
+		background-color: rgba(255,255,255,0.15);
+		border: double;
+		height: 500px;
+		width: 20%;
+		overflow-y: scroll;
+		box-shadow: 6px 6px 50px white;
+		margin-right: 10%;
+		margin-left:5%;
+		margin-bottom: 8%;
+	}
+}
+
 h2{
 	font-size: 40px;
 	font-weight: bolder;
@@ -13,7 +38,7 @@ h4{
 	text-decoration: underline;
 }
 
-.main{
+#main{
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -33,7 +58,6 @@ h4{
 	margin-bottom: 10%;
 	box-shadow: 10px 10px 30px grey;
 }
-
 .liste_episodes{
 	background-color: rgba(255,255,255,0.15);
 	border: double;
@@ -43,5 +67,4 @@ h4{
 	margin-top: 150px;
 	box-shadow: 6px 6px 50px white;
 }
-
 
