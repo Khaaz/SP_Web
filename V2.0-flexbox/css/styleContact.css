@@ -1,1 +1,27 @@
 @import url("main.css");
+
+#formulaire{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 2%;
+}
+
+h2{
+	font-size: 40px;
+}
+
+p{
+	font-size: 20px;
+}
+
+#case_nom{
+	margin-left:2.9%;
+}
+
+#case_prenom{
+	margin-left: 1.3%;
+}
+
+#case_email{
+	margin-left: 2.45%;
+}

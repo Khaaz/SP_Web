@@ -1,7 +1,7 @@
 @import url("main.css");
 
 section{
-	max-width: 1100px;
+	max-width: ;
 	text-align: justify;
 }
 h2{
@@ -9,7 +9,10 @@ h2{
 	font-weight: bolder;
 	text-shadow: 4px 4px 0px grey;
 }
-
+ #banniere{
+ 	margin: 0;
+ }
+ 
 div{
 	margin-top: 120px;
 }

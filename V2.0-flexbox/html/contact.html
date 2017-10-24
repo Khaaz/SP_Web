@@ -9,10 +9,11 @@
 	</head>
 	<body>
 		<header>
-		</header>
+			<div id="banniere">
+			</div>
 			<nav>
 				<ul class="menu">
-					<a class="categorie" href="gotactu.html">
+					<a class="categorie active" href="gotactu.html">
 						<li>Accueil</li>
 					</a>
 					<a class="categorie" href="actus.html">
@@ -35,26 +36,27 @@
 						</ul>
 					</li>
 					</a>
-					<a class="categorie active" href="contact.html">
+					<a class="categorie" href="contact.html">
 						<li>Contacts</li>
 					</a>
 				</ul>
 			</nav>
+		</header>
 		<div id="main">
 			<section id="formulaire"> <!-- Section formulaire -->
 				<h2>Contact</h2>
 				<form method="post" action="formulaire.php">
 					<p>
 						<label for="nom">Nom</label>
-						<input type="text" name="nom" placeholder="Nom*" required />
+						<input id="case_nom" type="text" name="nom" placeholder="Nom*" required />
 					</p>
 					<p>
 						<label for="prenom">Prenom</label>
-						<input type="text" name="prenom" placeholder="Prénom*" required />
+						<input id="case_prenom" type="text" name="prenom" placeholder="Prénom*" required />
 					</p>
 					<p>
 						<label for="email">Email</label>
-						<input type="email" name="email" placeholder="Email*" required />
+						<input id="case_email" type="email" name="email" placeholder="Email*" required />
 					</p>
 					<p>
 						<label for="telephone">Téléphone</label>
@@ -88,6 +90,23 @@
 		</div>
 		<footer>
 			<p>Copyright BELLEC Louison et AUBOUEIX Dorian - Groupe 6 ----- Tous droits réservés. </p>
+			<div id="image-footer-gauche">
+				<a href="https://www.facebook.com" >
+					<figure>
+							<img id="facebook" src="../addon/facebook.png" alt="Facebook.png">
+						</figure>
+				</a>
+				<a href="https://www.twitter.com">
+					<figure>
+							<img id="twitter" src="../addon/twitter.png" alt="Twitter.png">
+						</figure>
+				</a>
+				<a href="rss">
+					<figure>
+							<img id="rss" src="../addon/rss.png" alt="Rss.png">
+					</figure>
+				</a>
+		</div>
 		</footer>
 	</body>
 

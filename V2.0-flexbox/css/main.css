@@ -16,7 +16,7 @@ body{
 }
 
 
-header{
+#banniere{
 	background: no-repeat;
 	background-image: url("../addon/banniereGOT.jpg");
 	background-position: center;
@@ -111,7 +111,8 @@ a:hover{
 
 
 footer{
-	display:flex;
+	display: flex;
+	justify-content: space-between;
 	text-align: center;
 	text-align: justify;
 	bottom: 0;
@@ -121,28 +122,31 @@ footer{
 	box-shadow: 6px 6px 30px grey;
 }
 
+figure{
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 8px;
+	-webkit-margin-end: 8px;
+}
+
 #facebook{
-	position: absolute;
-		bottom: :50px;
-	margin: 0;
-	padding: 0;
-	width: 65px;
+	display: inline-flex;
+	width: 50px;
 	height: 50px;
 }
 
 #twitter{
-	position: absolute;
-		bottom: :100px;
-	margin: 0;
-	padding: 0;
-	width: 100px;
-	height: 100px;
+	display: inline-flex;
+	width: 50px;
+	height: 50px;
 }
 
 #rss{
-	position: absolute;
-	margin: 0;
-	padding: 0;
+	display: inline-flex;
 	width: 50px;
 	height: 50px;
+}
+
+#image-footer-gauche{
+	display: flex;
 }
