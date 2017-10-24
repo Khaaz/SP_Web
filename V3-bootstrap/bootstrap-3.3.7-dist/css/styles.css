@@ -1,0 +1,96 @@
+#image-titre{
+	height: 100px;
+	margin-left: 400px;
+}
+.nav2{
+	padding-top: 20px;
+}
+.navbar-inverse{
+	background-color: black;
+}
+body{
+ background-color: #222;
+ width: 100%;
+ height: 100%;
+}
+#nav-droite{
+	padding-right: 20px;
+}
+
+.section{
+	background-color: #b7d3d7;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	height: 700px;
+	margin-top: 5%;
+	margin-right: 0;
+	margin-left: 0;
+	border-bottom: solid 5px white;
+	border-top: solid 5px white;
+}
+
+#section1{
+	margin-top: 9%;
+	background-image: url("../fonts/game-of-thrones-raven.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	border-bottom: solid 4px white;
+	border-top: solid 4px white;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+h1{
+	background-color: rgba(230, 230, 230, 0.4);
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+}
+
+#H1{
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.text-image{
+	margin-bottom: 4%;
+	text-align: center;
+	font-size: 150%;
+}
+
+.jumbotron h1{
+	color: white;
+}
+
+.text-image p:first-child{
+	font-style: italic;
+	font-size: 175%;
+}
+.text-image p:last-child{
+	text-align: right;
+}
+
+.thumbnail{
+	background-color: inherit;
+	border:none;}
+
+.image-center{
+	margin-top: 5%;
+}
+
+h3{
+	text-align: center;
+}
+	
+p{
+	text-align: justify;
+}	
+
+img{
+	height: 300px;
+	width:300px;
+}
+	
