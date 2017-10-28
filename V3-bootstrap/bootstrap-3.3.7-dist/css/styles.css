@@ -1,46 +1,42 @@
+body{
+	background-color: #222;
+	width: 100%;
+	height: 100%;
+}
+
+/* Nav */
+
 #image-titre{
 	height: 100px;
 	margin-left: 400px;
 }
+
 .nav2{
 	padding-top: 20px;
 }
+
 .navbar-inverse{
 	background-color: black;
 }
-body{
- background-color: #222;
- width: 100%;
- height: 100%;
-}
+
 #nav-droite{
 	padding-right: 20px;
 }
 
-.section{
-	background-color: #b7d3d7;
-	background-size: 100%;
-	width: 100%;
-	height: 100%;
-	height: 700px;
-	margin-top: 5%;
-	margin-right: 0;
-	margin-left: 0;
-	border-bottom: solid 5px white;
-	border-top: solid 5px white;
-}
+/* Presentation */
 
 #section1{
-	margin-top: 9%;
 	background-image: url("../fonts/game-of-thrones-raven.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	width: 100%;
 	border-bottom: solid 4px white;
 	border-top: solid 4px white;
-	margin-right: 0;
-	margin-left: 0;
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	margin-top: 7%;
 }
 
 h1{
@@ -73,9 +69,45 @@ h1{
 	text-align: right;
 }
 
+/* Actus */
+
+#section2{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: solid 4px white;
+	border-top: solid 4px white;
+	background-color: #b7d3d7;
+	background-size: 100%;
+	height: 100%;
+	margin-top: 5%;
+}
+
+#saison7{
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+/* Personnages */
+
+#section3{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: solid 4px white;
+	border-top: solid 4px white;
+	background-color: #b7d3d7;
+	background-size: 100%;
+	height: 100%;
+	margin-top: 5%;
+}
+
 .thumbnail{
 	background-color: inherit;
-	border:none;}
+	border:none;
+}
 
 .image-center{
 	margin-top: 5%;
@@ -93,4 +125,74 @@ img{
 	height: 300px;
 	width:300px;
 }
-	
+
+/* Medias */
+
+#section4{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: solid 4px white;
+	border-top: solid 4px white;
+	background-color: #b7d3d7;
+	background-size: 100%;
+	height: 100%;
+	margin-top: 5%;
+}
+
+#video{
+	width: 100%;
+	height: 100%;
+}
+
+/* Boutique */
+
+#section5{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: solid 4px white;
+	border-top: solid 4px white;
+	background-color: #b7d3d7;
+	background-size: 100%;
+	height: 100%;
+	margin-top: 5%;
+}
+
+/* Contact */
+
+#section6{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: solid 4px white;
+	border-top: solid 4px white;
+	background-color: #b7d3d7;
+	background-size: 100%;
+	height: 100%;
+	margin-top: 5%;
+}
+h2{
+	margin-top: 5%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#case{
+	width: 50%;
+}
+
+#case_description{
+	width: 60%;
+}
+
+form{
+	margin-top: 5%;
+	margin-bottom:5%;
+	margin-left: 30%;
+}
+
+form p{
+	font-size: 25px;
+}
