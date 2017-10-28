@@ -94,16 +94,17 @@
 		<!-- Actus -->
 		<section class="row section" id="section2">
 				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
-				<div class="col-ld-2 col-md-2 col-sm-2 col-xs-2">GOT C TROP BIEN aerververvrerdsevdsedq<serdgedvdredveverververvesdververververgervdevrereve </div>
+				lolmdrjpp
+				<div class="col-ld-2 col-md-2 col-sm-2 col-xs-2"></div>
 		</section>
 		<!-- Personnages -->
-		<section class="row section" id="section2">
+		<section class="row section" id="section3">
 			<div class="col-sm-6 col-md-4 image-center">
 				<div class="thumbnail">
 					<img src="../fonts/Cersei3.jpg" alt="Cersei" class="img-circle img-responsive center-block">
 					<div class="caption">
 						<h3>Cersei Lannister</h3>
-						<p>Cersei est pas gentille elle tue des gens.</p>
+						<p>CC'est la fille de lord Tywin Lannister et la sœur jumelle de Jaime Lannister, et elle est devenue reine des Sept Couronnes en épousant Robert Baratheon. Femme très ambitieuse et réputée pour sa beauté, elle supporte mal les restrictions que lui impose son sexe et n'a que du mépris pour son mari.</p>
 					</div>
 				</div>
 			</div>
@@ -112,56 +113,65 @@
 					<img src="../fonts/JonSnow2.jpg" alt="JonSnow" class="img-circle img-responsive center-block">
 					<div class="caption">
 						<h3>Jon Snow</h3>
-						<p>Lui il est gentil, il est le king of the north et il tue des marcheurs blancs.</p>
+						<p>Il est désigné comme étant le fils illégitime de lord Eddard Stark et d'une femme inconnue. Né en l'an 283, c'est un jeune garçon âgé de quatorze ans au début de la saga, (dix-sept ans dans l'adaptation télévisée) qui, comme la plupart des caractéristiques physiques des Stark, possède des cheveux noirs, le teint brun, des yeux d'un gris noir sombre et une carrure mince et gracieuse</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-4 image-center">
 				<div class="thumbnail">
-					<img src="../fonts/Daenerys.jpg" alt="Daenerys" class="img-circle img-responsive center-block">
+					<img src="../fonts/Daenerys.jpeg" alt="Daenerys" class="img-circle img-responsive center-block">
 					<div class="caption">
 						<h3>Daenarys Targarien</h3>
-						<p>Elle est un peu gentille, et elle kiffe Jon sa maman. AH, et elle a des dragons aussi.</p>
+						<p>Elle est la fille légitime du roi Aerys II Targaryen et de la reine Rhaella Targaryen. Née en l'an 284, c'est une jeune fille âgée de treize ans au début de la saga (seize ans dans l'adaptation télévisée) qui, comme la plupart des caractéristiques physiques des Targaryen, possède des cheveux d'or et d'argent, le teint clair, des yeux d'un violet améthyste clair et une carrure svelte.</p>
 					</div>
 				</div>
 			</div>
  		</section>
 		<!-- Medias -->
-		<section class="row section" id="section3">
-				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
-				<div class="col-ld-2 col-md-2 col-sm-2 col-xs-2">GOT C TROP BIEN aerververvrerdsevdsedq<serdgedvdredveverververvesdververververgervdevrereve </div>
+		<section class="row section" id="section4">
+					<video autoplay loop id="video">
+  						<source src="../fonts/video.mp4" type="video/mp4">
+					</video>				
 		</section>
 		<!-- Boutiques -->
-		<section class="row section" id="section2">
+		<section class="row section" id="section5">
 				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
 				<div class="col-ld-2 col-md-2 col-sm-2 col-xs-2">GOT C TROP BIEN aerververvrerdsevdsedq<serdgedvdredveverververvesdververververgervdevrereve </div>
 				<div class="progress">
-					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
 						<span class="sr-only">45% Complete</span>
 					</div>
 				</div>
 		</section>
 		<!-- Contact -->
-		<section class="row section" id="section4">
+		<section class="row section" id="section6">
 				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
 				<div id="formulaire"> <!-- Section formulaire -->
-					<h2>Contact</h2>
+					<h2>Contactez nous</h2>
 					<form method="post" action="formulaire.php">
 						<p>
 							<label for="nom">Nom</label>
-							<input type="text" name="nom" placeholder="Nom*" required />
+						</p>
+						<p>
+							<input id="case" type="text" name="nom" placeholder="Nom*" required />
 						</p>
 						<p>
 							<label for="prenom">Prenom</label>
-							<input type="text" name="prenom" placeholder="Prénom*" required />
+						</p>
+						<p>
+							<input id="case" type="text" name="prenom" placeholder="Prénom*" required />
 						</p>
 						<p>
 							<label for="email">Email</label>
-							<input type="email" name="email" placeholder="Email*" required />
+						</p>
+						<p>
+							<input id="case" type="email" name="email" placeholder="Email*" required />
 						</p>
 						<p>
 							<label for="telephone">Téléphone</label>
-							<input type="tel" name="telephone" placeholder="Telepĥone" />
+						</p>
+						<p>
+							<input  id="case" type="tel" name="telephone" placeholder="Telepĥone" />
 						</p>
 						<p>
 							Est ce votre première visite?
@@ -181,7 +191,7 @@
 						<p>
 							<label for="text">Description</label>
 							<br />
-							<textarea name="text" rows="10" cols="30" placeholder="Votre texte ici.*" required></textarea>
+							<textarea id="case_description" name="text" rows="10" cols="30" placeholder="Votre texte ici.*" required></textarea>
 						</p>
 						<p>
 							<input type="submit" value="Envoyer" />
