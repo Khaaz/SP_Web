@@ -19,7 +19,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-fixed-top navbar-inverse">
-			<div class="container-fluid">
+			<div class="container-fluid" id="border_nav">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="nav2 navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -135,13 +135,51 @@
 		</section>
 		<!-- Boutiques -->
 		<section class="row section" id="section5">
-				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
-				<div class="col-ld-2 col-md-2 col-sm-2 col-xs-2">GOT C TROP BIEN aerververvrerdsevdsedq<serdgedvdredveverververvesdververververgervdevrereve </div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-						<span class="sr-only">45% Complete</span>
-					</div>
-				</div>
+			<div class="row">
+				<h5 class="text-center">Produits Dérivés</h5>
+					<div class="col-sm-6 col-md-4 image-center">
+						<div class="thumbnail">
+							<img src="../fonts/dinner.png" alt="dinner" class="img-responsive center-block">
+							<div class="caption">
+								<h4 class="text-center">Planche à découper Game of Thrones, « dinner is coming »</h4>
+								<p class="text-center">Aiguisons les poignards, aiguisons le couteau : Dinner is coming.</p>  
+								<p class="text-center">Valar Mangearis.</p>
+								<p class="text-center">-Planche à découper</p>
+								<p class="text-center">-Avec image et texte gravés</p>
+								<p class="text-center">-Fait de bois de bambou</p>
+								<p class="text-center">-Dimensions 30 x 20 x 1 cm</p>
+								<p class="text-center">-Poids environ 475 grammes</p>
+								<button class="bouton" type="button">EN SAVOIR PLUS</button>
+			  				</div>
+			  			</div>
+	  				</div>
+	  				<div class="col-sm-6 col-md-4 image-center">
+						<div class="thumbnail">
+							<img src="../fonts/couronne.png" alt="couronne" class="img-responsive center-block">
+							<div class="caption">
+								<h4 class="text-center">Couronne de Joffrey Baratheon</h4>
+								<p class="text-center">Valyrian Steel, le fabricant de répliques d’armes, propose depuis peu une réplique de la couronne de Joffrey Baratheon</p>  
+								<p class="text-center">-1500 pièces dans le monde</p>
+								<p class="text-center">-Dimensions 30 x 20 x 1 cm</p>
+								<p class="text-center">-Poids environ 475 grammes</p>
+								<button class="bouton" type="button">EN SAVOIR PLUS</button>
+							</div>
+			  			</div>
+			  		</div>
+			  		<div class="col-sm-6 col-md-4 image-center">
+						<div class="thumbnail">
+							<img src="../fonts/figurine.png" alt="figurine" class="img-responsive center-block">
+							<div class="caption">
+								<h4 class="text-center">Figurine de Daenerys et Drogon</h4>
+								<p class="text-center">Le célèbre personnage de Daenerys accompagné de Drogon, l'un des 3 dragons nés dans la Mer Dothrak</p>  
+								<p class="text-center">-750 pièces dans le monde</p>
+								<p class="text-center">-Dimensions 30 x 40 cm</p>
+								<p class="text-center">-Poids environ 250g</p>
+								<button class="bouton" type="button">EN SAVOIR PLUS</button>
+							</div>
+			  			</div>
+		  			</div>
+		  		
 		</section>
 		<!-- Contact -->
 		<section class="row section" id="section6">
@@ -171,7 +209,7 @@
 							<label for="telephone">Téléphone</label>
 						</p>
 						<p>
-							<input  id="case" type="tel" name="telephone" placeholder="Telepĥone" />
+							<input  id="case" type="tel" name="telephone" placeholder="Telephone" />
 						</p>
 						<p>
 							Est ce votre première visite?
