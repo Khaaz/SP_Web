@@ -79,7 +79,7 @@
 		<!-- Presentation -->
 		<section class="jumbotron" id="section1">
 				<div class="container" id="H1">
-					<h1> Le seul site d'actualité Game Of Thrones fiable !</h1>
+					<h1> Le seul site d'actualités Game Of Thrones fiable !</h1>
 				</div>
 				<div class="container-fluid"> 
 					<div class="row">
@@ -93,24 +93,36 @@
 		</section>
 		<!-- Actus -->
 		<section class="row section" id="section2">
-				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
-				lolmdrjpp
-				<div class="col-ld-2 col-md-2 col-sm-2 col-xs-2"></div>
+			<div class="row">
+				<h2 class="H2">Actus série</h2>	
+					<div class="col-ld-1 col-md-1 col-sm-1 col-xs-1"></div>
+					<div class="col-xs-6 container">
+						<h2>Dates de la saison 8</h2>
+						<p class="actus"> 
+						At nunc si ad aliquem bene nummatum tumentemque ideo honestus advena salutatum introieris, primitus tamquam exoptatus suscipieris et interrogatus multa coactusque mentiri, miraberis numquam antea visus summatem virum tenuem te sic enixius observantem, ut paeniteat ob haec bona tamquam praecipua non vidisse ante decennium Romam.
+						</p>
+						<h2>Saison 7, secrets de tournages</h2>
+						<p class="actus">
+						At nunc si ad aliquem bene nummatum tumentemque ideo honestus advena salutatum introieris, primitus tamquam exoptatus suscipieris et interrogatus multa coactusque mentiri, miraberis numquam antea visus summatem virum tenuem te sic enixius observantem, ut paeniteat ob haec bona tamquam praecipua non vidisse ante decennium Romam.
+						</p>
+					</div>
+			</div>		
 		</section>
+				
 		<!-- Personnages -->
 		<section class="row section" id="section3">
 			<div class="col-sm-6 col-md-4 image-center">
 				<div class="thumbnail">
-					<img src="../fonts/Cersei3.jpg" alt="Cersei" class="img-circle img-responsive center-block">
+					<img src="../fonts/Cersei3.jpg" alt="Cersei" class="img-circle img-responsive center-block img_personnages">
 					<div class="caption">
 						<h3>Cersei Lannister</h3>
-						<p>CC'est la fille de lord Tywin Lannister et la sœur jumelle de Jaime Lannister, et elle est devenue reine des Sept Couronnes en épousant Robert Baratheon. Femme très ambitieuse et réputée pour sa beauté, elle supporte mal les restrictions que lui impose son sexe et n'a que du mépris pour son mari.</p>
+						<p>C'est la fille de lord Tywin Lannister et la sœur jumelle de Jaime Lannister, et elle est devenue reine des Sept Couronnes en épousant Robert Baratheon. Femme très ambitieuse et réputée pour sa beauté, elle supporte mal les restrictions que lui impose son sexe et n'a que du mépris pour son mari.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-4 image-center">
 				<div class="thumbnail">
-					<img src="../fonts/JonSnow2.jpg" alt="JonSnow" class="img-circle img-responsive center-block">
+					<img src="../fonts/JonSnow2.jpg" alt="JonSnow" class="img-circle img-responsive center-block img_personnages">
 					<div class="caption">
 						<h3>Jon Snow</h3>
 						<p>Il est désigné comme étant le fils illégitime de lord Eddard Stark et d'une femme inconnue. Né en l'an 283, c'est un jeune garçon âgé de quatorze ans au début de la saga, (dix-sept ans dans l'adaptation télévisée) qui, comme la plupart des caractéristiques physiques des Stark, possède des cheveux noirs, le teint brun, des yeux d'un gris noir sombre et une carrure mince et gracieuse</p>
@@ -119,7 +131,7 @@
 			</div>
 			<div class="col-sm-6 col-md-4 image-center">
 				<div class="thumbnail">
-					<img src="../fonts/Daenerys.jpeg" alt="Daenerys" class="img-circle img-responsive center-block">
+					<img src="../fonts/Daenerys.jpeg" alt="Daenerys" class="img-circle img-responsive center-block img_personnages">
 					<div class="caption">
 						<h3>Daenarys Targarien</h3>
 						<p>Elle est la fille légitime du roi Aerys II Targaryen et de la reine Rhaella Targaryen. Née en l'an 284, c'est une jeune fille âgée de treize ans au début de la saga (seize ans dans l'adaptation télévisée) qui, comme la plupart des caractéristiques physiques des Targaryen, possède des cheveux d'or et d'argent, le teint clair, des yeux d'un violet améthyste clair et une carrure svelte.</p>
@@ -136,12 +148,12 @@
 		<!-- Boutiques -->
 		<section class="row section" id="section5">
 			<div class="row">
-				<h5 class="text-center">Produits Dérivés</h5>
+				<h4 class="text-center">Produits Dérivés</h4>
 					<div class="col-sm-6 col-md-4 image-center">
 						<div class="thumbnail">
 							<img src="../fonts/dinner.png" alt="dinner" class="img-responsive center-block">
 							<div class="caption">
-								<h4 class="text-center">Planche à découper Game of Thrones, « dinner is coming »</h4>
+								<h5 class="text-center">Planche à découper Game of Thrones, « dinner is coming »</h5>
 								<p class="text-center">Aiguisons les poignards, aiguisons le couteau : Dinner is coming.</p>  
 								<p class="text-center">Valar Mangearis.</p>
 								<p class="text-center">-Planche à découper</p>
@@ -157,7 +169,7 @@
 						<div class="thumbnail">
 							<img src="../fonts/couronne.png" alt="couronne" class="img-responsive center-block">
 							<div class="caption">
-								<h4 class="text-center">Couronne de Joffrey Baratheon</h4>
+								<h5 class="text-center">Couronne de Joffrey Baratheon</h5>
 								<p class="text-center">Valyrian Steel, le fabricant de répliques d’armes, propose depuis peu une réplique de la couronne de Joffrey Baratheon</p>  
 								<p class="text-center">-1500 pièces dans le monde</p>
 								<p class="text-center">-Support en forme d’épées</p>
@@ -173,7 +185,7 @@
 						<div class="thumbnail">
 							<img src="../fonts/figurine.png" alt="figurine" class="img-responsive center-block">
 							<div class="caption">
-								<h4 class="text-center">Figurine de Daenerys et Drogon</h4>
+								<h5 class="text-center">Figurine de Daenerys et Drogon</h5>
 								<p class="text-center">Le célèbre personnage de Daenerys accompagné de Drogon, l'un des 3 dragons nés dans la Mer Dothrak</p>  
 								<p class="text-center">-750 pièces dans le monde</p>
 								<p class="text-center">-Dimensions 30 x 40 cm</p>
@@ -188,7 +200,7 @@
 		<section class="row section" id="section6">
 				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
 				<div id="formulaire"> <!-- Section formulaire -->
-					<h2>Contactez nous</h2>
+					<h6>Contactez nous</h6>
 					<form method="post" action="formulaire.php">
 						<p>
 							<label for="nom">Nom</label>
