@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>les patates</title>
-		
+		<title>GOT Actu</title>
+
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
 		<link href="../css/styles.css" rel="stylesheet">
@@ -18,15 +18,25 @@
 		<![endif]-->
 	</head>
 	<body>
-	
+
 		<!-- Menu -->
-		
-		<div class="navbar navbar-inverse navbar-fixed-top border">
-			<div class="container">
+		<nav class="navbar navbar-inverse navbar-fixed-top border">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 					<a class="navbar-brand taille-image" href="#">
-						<img src="../fonts/titre.png" alt="Titre" id="image">	
-					</a>	
-					<div class="collapse navbar-collapse navHeaderCollapse">
+						<img src="../fonts/titre.png" alt="Titre" id="image">
+					</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="container">
+					<div class="collapse navbar-collapse navHeaderCollapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right menu">
 							<li><a  id="categorie" href="#section1">Présentation</a></li>
 							<li><a  id="categorie" href="#section2">Actualités</a></li>
@@ -35,19 +45,17 @@
 							<li><a  id="categorie" href="#section5">Boutique</a></li>
 							<li><a  id="categorie" href="#section6">Contact</a></li>
 						</ul>
-					</div>					
-			
-			
-			</div>
-		</div>
-			
+					</div>
+				</div>
+			</div><!-- /.container-fluid -->
+		</nav>
 		<!-- Presentation -->
-		
+
 		<section class="jumbotron" id="section1">
 				<div class="container" id="H1">
 					<h1> Le seul site d'actualités Game Of Thrones fiable !</h1>
 				</div>
-				<div class="container-fluid"> 
+				<div class="container-fluid">
 					<div class="row">
 						<div class="col-ld-1 col-md-1 col-sm-1 col-xs-1"></div>
 						<div class="col-ld-3 col-md-3 col-sm-3 col-xs-3 text-image"><p>"Winter is coming!" </p><p>- Jon Snow</p></div>
@@ -57,16 +65,16 @@
 					</div>
 				</div>
 		</section>
-		
+
 		<!-- Actus -->
-		
+
 		<section class="row section" id="section2">
 			<div class="row">
-				<h2 class="H2">Actus série</h2>	
+				<h2 class="H2">Actus série</h2>
 					<div class="col-ld-1 col-md-1 col-sm-1 col-xs-1"></div>
 					<div class="col-xs-6 container-fluid">
 						<h2>Dates de la saison 8</h2>
-						<p class="actus"> 
+						<p class="actus">
 						At nunc si ad aliquem bene nummatum tumentemque ideo honestus advena salutatum introieris, primitus tamquam exoptatus suscipieris et interrogatus multa coactusque mentiri, miraberis numquam antea visus summatem virum tenuem te sic enixius observantem, ut paeniteat ob haec bona tamquam praecipua non vidisse ante decennium Romam.
 						</p>
 						<h2>Saison 7, secrets de tournages</h2>
@@ -74,11 +82,11 @@
 						At nunc si ad aliquem bene nummatum tumentemque ideo honestus advena salutatum introieris, primitus tamquam exoptatus suscipieris et interrogatus multa coactusque mentiri, miraberis numquam antea visus summatem virum tenuem te sic enixius observantem, ut paeniteat ob haec bona tamquam praecipua non vidisse ante decennium Romam.
 						</p>
 					</div>
-			</div>		
+			</div>
 		</section>
-				
+
 		<!-- Personnages -->
-		
+
 		<section class="row section" id="section3">
 			<div class="col-sm-6 col-md-4 image-center">
 				<div class="thumbnail">
@@ -108,17 +116,17 @@
 				</div>
 			</div>
  		</section>
- 		
+
 		<!-- Medias -->
-		
+
 		<section class="row section" id="section4">
 					<video autoplay loop id="video">
   						<source src="../fonts/video.mp4" type="video/mp4">
-					</video>				
+					</video>
 		</section>
-		
+
 		<!-- Boutiques -->
-		
+
 		<section class="row section" id="section5">
 			<div class="row">
 				<h4 class="text-center">Produits Dérivés</h4>
@@ -127,7 +135,7 @@
 							<img src="../fonts/dinner.png" alt="dinner" class="img-responsive center-block">
 							<div class="caption">
 								<h5 class="text-center">Planche à découper Game of Thrones, « dinner is coming »</h5>
-								<p class="text-center">Aiguisons les poignards, aiguisons le couteau : Dinner is coming.</p>  
+								<p class="text-center">Aiguisons les poignards, aiguisons le couteau : Dinner is coming.</p>
 								<p class="text-center">Valar Mangearis.</p>
 								<p class="text-center">-Planche à découper</p>
 								<p class="text-center">-Avec image et texte gravés</p>
@@ -143,7 +151,7 @@
 							<img src="../fonts/couronne.png" alt="couronne" class="img-responsive center-block">
 							<div class="caption">
 								<h5 class="text-center">Couronne de Joffrey Baratheon</h5>
-								<p class="text-center">Valyrian Steel, le fabricant de répliques d’armes, propose depuis peu une réplique de la couronne de Joffrey Baratheon</p>  
+								<p class="text-center">Valyrian Steel, le fabricant de répliques d’armes, propose depuis peu une réplique de la couronne de Joffrey Baratheon</p>
 								<p class="text-center">-1500 pièces dans le monde</p>
 								<p class="text-center">-Support en forme d’épées</p>
 								<p class="text-center">-Livré avec certificat d’authenticité</p>
@@ -159,7 +167,7 @@
 							<img src="../fonts/figurine.png" alt="figurine" class="img-responsive center-block">
 							<div class="caption">
 								<h5 class="text-center">Figurine de Daenerys et Drogon</h5>
-								<p class="text-center">Le célèbre personnage de Daenerys accompagné de Drogon, l'un des 3 dragons nés dans la Mer Dothrak</p>  
+								<p class="text-center">Le célèbre personnage de Daenerys accompagné de Drogon, l'un des 3 dragons nés dans la Mer Dothrak</p>
 								<p class="text-center">-750 pièces dans le monde</p>
 								<p class="text-center">-Dimensions 30 x 40 cm</p>
 								<p class="text-center">-Poids environ 250grammes</p>
@@ -167,11 +175,11 @@
 							</div>
 			  			</div>
 		  			</div>
-		  		
+
 		</section>
-		
+
 		<!-- Contact -->
-		
+
 		<section class="row section" id="section6">
 				<div class="col-ld-5 col-md-5 col-sm-5 col-xs-5"></div>
 				<div id="formulaire"> <!-- Section formulaire -->
@@ -227,12 +235,11 @@
 					</form>
 				</div>
 		</section>
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/mlgtrickshot.js"></script>
-			<script src="../js/leswag.js"></script>
+		<script src="../js/scroll.js"></script>
 	</body>
 </html>
